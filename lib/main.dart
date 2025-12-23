@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:learn_dart/delete_account.dart';
 import 'package:learn_dart/plan_billing_page.dart';
+import 'package:learn_dart/preferences.dart';
 import 'package:learn_dart/profilePage.dart';
 
 void main() {
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  const ProfilePage(),
+      home:  const Preferences(),
     );
   }
 }
